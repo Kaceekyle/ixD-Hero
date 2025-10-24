@@ -20,6 +20,7 @@ body {
 .brand-logo {
     padding-top: 24px;
 }
+
 #btn-nav {
     text-decoration: none;
     color: #1E1E1E;
@@ -62,7 +63,6 @@ nav {
 
 .nav-btn {
     color: #1E1E1E;
-
 }
 
 p { 
@@ -78,7 +78,7 @@ p {
 
 .side-nav a {
     text-decoration: none;
-        color: #FF9D00;
+    color: #FF9D00;
 }
 
 .side-nav {
