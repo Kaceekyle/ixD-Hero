@@ -58,3 +58,42 @@ nav {
     width: 42px;
     height: 42px;
 }
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #FF9D00;
+    width: 560px;
+    height: 122px;
+    letter-spacing: .19rem;
+}
+
+p { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFF3E1;
+    margin-top: 2px;
+    width: 540px;
+    margin-bottom: 48px;
+}
+
+.button-hero {
+    text-decoration: none;
+    color: #1E1E1E;
+    padding: 13px 40px;
+    background-color: #FF9D00;
+    border-radius: 10px;
+    font-family: "Roboto Slab", serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: .04rem;
+}
+
+.hero-text {
+    padding-left: 94px;
+    padding-top: 279px;
+}
