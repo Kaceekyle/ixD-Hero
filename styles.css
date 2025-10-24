@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
     background-image: url('images/coffee_hero.png');
     background-repeat: no-repeat;
     width: auto;
+}
+nav {
+    width: 1252px;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 94px;
+    padding-right: 94px;
+}
+
+.brand-logo {
+    padding-top: 24px;
+}
+
+.side-nav a {
+    text-decoration: none;
+        color: #FF9D00;
+}
+
+.side-nav {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .03rem;
+    padding-top: 52px;
+    margin: 0;
+}
+
+.side-nav-btn {
+    display: flex;
+    list-style: none; 
+}
+
+#btn-nav {
+    text-decoration: none;
+    color: #1E1E1E;
+    padding: 8px 20px;
+    background-color: #FF9D00;
+    border-radius: 5px;
+}
+.nav-btn {
+    color: #1E1E1E;
+
+}
+
+.bag img {
+    width: 42px;
+    height: 42px;
 }
