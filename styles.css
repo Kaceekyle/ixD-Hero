@@ -50,6 +50,14 @@ h1 {
     padding-top: 279px;
 }
 
+/*
+main {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+*/
+
 nav {
     width: 1252px;
 }
