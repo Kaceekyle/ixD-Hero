@@ -105,3 +105,60 @@ p {
     display: flex;
     list-style: none; 
 }
+
+/* MODAL */ 
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    background-color: #FFF3E1;
+    width: 600px;
+    height: 300px;
+    color: #1E1E1E;
+    padding-left: 86px;
+    padding-right: 86px;
+    padding-top: 161px;
+    padding-bottom: 161px;
+    border-radius: 10px;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+.modal-body h2 {
+    color: #1E1E1E;
+    font-size: 37px;
+    text-align: center;
+}
+
+.modal-body p {
+    color: #1E1E1E;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 615px;
+    margin-top: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn-modal {
+    text-decoration: none;
+    background-color: #FF9D00;
+    color: #1E1E1E;
+    border-radius: 10px;
+    padding: 13px 45px;
+    font-family: "Roboto Slab", serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: .04rem;
+}
