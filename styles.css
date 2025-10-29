@@ -3,6 +3,11 @@
 body {
     background-image: url('images/coffee_hero.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center-top;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
 }
 
 .button-hero {
@@ -57,7 +62,7 @@ h1 {
 }
 
 nav {
-    width: 1252px;
+    width: 90%;
 }
 
 .nav-logo {
@@ -84,7 +89,7 @@ p {
 
 .side-nav a {
     text-decoration: none;
-    color: #FF9D00;
+    color: #FF9D00; 
 }
 
 .side-nav {
@@ -97,6 +102,7 @@ p {
     letter-spacing: .03rem;
     padding-top: 52px;
     margin: 0;
+    align-items: center;
 }
 
 .side-nav-btn {
@@ -226,9 +232,10 @@ leaves div:nth-child(1){
 }
 .modal-body h2 {
     color: #1E1E1E;
-    font-size: 37px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
+    font-family: "roboto Slab", serif;
 }
 
 .modal-body p {
