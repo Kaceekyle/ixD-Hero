@@ -116,7 +116,7 @@ p {
     position: fixed;
     inset: 0;
     pointer-events: none;
-    z-index: -12;
+    z-index: -14;
     overflow: hidden;
 }
 
